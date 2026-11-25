@@ -291,6 +291,17 @@ details[open] .disclosure-mark::after { display: none; }
 .timeline li p.timeline-role { font-size: .875rem; font-weight: 680; color: var(--accent); margin-bottom: 7px; }
 
 .life { background: var(--paper); }
+.work-facts {
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.6fr);
+  gap: clamp(16px, 4vw, 52px);
+  padding-block: 23px 34px;
+  border-top: 1px solid var(--line);
+}
+.work-facts h3 { font-size: clamp(1.35rem, 2.3vw, 1.9rem); }
+.work-facts p, .work-facts ul { max-width: 42em; color: var(--muted); }
+.work-facts ul { margin: 10px 0 0; padding-inline-start: 1.2em; }
+.work-facts li + li { margin-top: 3px; }
 .concept {
   position: relative;
   display: grid;
@@ -398,15 +409,4 @@ footer { border-top: 1px solid var(--line); }
   .project-intro { margin-bottom: 3px; }
   .project-metric { text-align: left; margin-top: 0; }
   .project-metric span { margin-top: 1px; }
-  .timeline li { grid-template-columns: 1fr; gap: 5px; padding-block: 18px; }
-  .concept { grid-template-columns: minmax(0, 1fr); padding-bottom: 10px; }
-  .route-art { width: 136px; }
-}
-@media (max-width: 360px) {
-  .shell { width: calc(100% - 30px); }
-  .brand { gap: 7px; }
-  .brand-mark { width: 32px; height: 32px; }
-  .brand-name, .nav { font-size: .8125rem; }
-  .header-contact { padding-inline: 10px; }
-  h1 { font-size: clamp(2rem, 9.5vw, 2.32rem); }
-}
+  .timeline li { grid-template-col
