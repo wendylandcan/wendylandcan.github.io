@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The portfolio of Wendy Cao, a law master’s student at Shanghai Jiao Tong University working in AI product and evaluation.">
+  <meta name="theme-color" content="#f3f7fb">
+  <title>Wendy Cao · Portfolio</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="site.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Wendy Cao, back to top">
+        <span class="brand-mark" aria-hidden="true">w.</span><span class="brand-name">Wendy Cao</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation"><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#life">Life</a></nav>
+      <div class="header-actions"><a class="language" href="index.html" lang="zh-CN" hreflang="zh-CN" aria-label="切换为中文">中文</a><a class="header-contact" href="#contact">Contact</a></div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="shell hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="hero-intro"><span aria-hidden="true">✳</span> Hi, I’m Wendy Cao</p>
+        <h1 id="hero-title">Law, meet AI.<br><span>Make room for joy.</span></h1>
+        <p class="hero-description">I study civil procedure at Shanghai Jiao Tong University and work in AI product and evaluation. I like turning everyday problems into things people can use.</p>
+        <div class="actions">
+          <a class="button primary" href="#projects">Explore projects</a>
+          <a class="button secondary" href="#about">More about me</a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <div class="portrait-stage">
+          <span class="orbit orbit-solid" aria-hidden="true"></span>
+          <span class="orbit orbit-dashed" aria-hidden="true"></span>
+          <span class="orbit-dot" aria-hidden="true"></span>
+          <span class="portrait-spark" aria-hidden="true">✧</span>
+          <div class="photo-frame">
+            <img src="wendy.webp" width="900" height="1350" alt="Wendy smiling beneath a leafy tree" fetchpriority="high">
+          </div>
+          <span class="portrait-script" aria-hidden="true">Always curious.</span>
+        </div>
+        <figcaption><span>Wendy Cao</span><span>Shanghai, China</span></figcaption>
+      </figure>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="shell about-grid">
+        <div>
+          <p class="section-label">About me</p>
+          <h2 id="about-title">From law to AI<span>.</span></h2>
+          <p>My first reason to build a product was simple: help my colleagues spend less time comparing orders. After building my first review workflow with Dify at Lilith, I brought the same curiosity to enterprise legal work, labor-law consultations, and even a friend’s “couples courtroom.”</p>
+          <p>I now look at AI products through evaluation as well. When should an agent ask a follow-up question? When it gets something wrong, which step broke down? I find those questions as interesting as building the prototype.</p>
+        </div>
+        <dl class="education">
+          <div><dt>Education</dt><dd>Shanghai Jiao Tong University <span>Master’s in Civil Procedure · Class of 2027</span></dd><dd>Shanghai University of Finance and Economics <span>LL.B. · 2019–2023</span></dd></div>
+          <div><dt>Qualification</dt><dd>PRC Legal Professional Qualification (Class A)</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects" aria-labelledby="projects-title">
+      <div class="shell">
+        <div class="section-head">
+          <div><p class="section-label">Portfolio</p><h2 id="projects-title">Selected work<span>.</span></h2></div>
+          <p>From enterprise workflows to independent web apps. Open a project for the problem and the decisions behind it.</p>
+        </div>
+        
+        <article class="project" id="nio">
+          <p class="project-category">Enterprise AI</p>
+          <div class="project-main">
+            <p class="project-role">AI Product Intern</p>
+            <h3>NIO Legal AI Platform</h3>
+            <p class="project-intro">A single entry point for legal questions, knowledge, and case collaboration.</p>
+            <details>
+              <summary><span>Project details</span><span class="sr-only"> · NIO Legal AI Platform</span><span class="disclosure-mark" aria-hidden="true"></span></summary>
+              <dl class="project-detail"><div><dt>Problem</dt><dd>Employees reached legal through scattered channels. Repeat questions were hard to capture, and case teams lacked a shared view.</dd></div><div><dt>My role</dt><dd>I helped build the platform from zero to one, designing modules for intake, cases, law firms, knowledge, and updates. I designed Feishu Q&A, two knowledge retrieval paths, and escalation to legal staff, then evaluated citations and follow-up questions through replay and legal review.</dd></div><div><dt>Outcome</dt><dd>I helped establish a knowledge Q&A evaluation rubric and used curated examples and retesting to track answer quality.</dd></div></dl>
+              
+            </details>
+          </div>
+        </article>
+        <article class="project" id="jobpilot">
+          <p class="project-category">Legal AI</p>
+          <div class="project-main">
+            <p class="project-role">Product Lead</p>
+            <h3>JobPilot</h3>
+            <p class="project-intro">A labor-law agent for workers, employers, and lawyers that asks for missing facts before providing analysis with sources.</p>
+            <details>
+              <summary><span>Project details</span><span class="sr-only"> · JobPilot</span><span class="disclosure-mark" aria-hidden="true"></span></summary>
+              <dl class="project-detail"><div><dt>Problem</dt><dd>Labor-law questions often leave out contract details, dates, and jurisdiction. Any of those facts can change the analysis.</dd></div><div><dt>My role</dt><dd>I mapped 24 scenarios and led a three-stage agent design for scenario recognition, fact-finding, and analysis. Each user group gets tailored questions and reports. The system retrieves laws and cases through MCP and uses rules-based calculators for compensation and other figures.</dd></div><div><dt>Outcome</dt><dd>The team placed second among 173 entries in the law firm track of the second iCourt National Legal AI Competition.</dd></div></dl>
+            </details>
+          </div>
+          <div class="project-metric"><strong>2nd place</strong><span>iCourt National Legal AI Competition</span></div>
+        </article>
+        <article class="project" id="liqingai">
+          <p class="project-category">Independent Build</p>
+          <div class="project-main">
+            <p class="project-role">Design & Development</p>
+            <h3>Liqingai</h3>
+            <p class="project-intro">A two-person interactive courtroom that gives both partners space to tell their side.</p>
+            <details>
+              <summary><span>Project details</span><span class="sr-only"> · Liqingai</span><span class="disclosure-mark" aria-hidden="true"></span></summary>
+              <dl class="project-detail"><div><dt>Problem</dt><dd>A generic AI chat often follows the account it hears first. In a disagreement, the other person may never get to provide context or say how they feel.</dd></div><div><dt>My role</dt><dd>I built a five-step interaction covering statements, evidence, challenges, debate, and an AI verdict. It supports screenshot and audio analysis, live synchronization, and streamed verdicts.</dd></div><div><dt>Outcome</dt><dd>Routing tasks across models and caching results reduced API request costs for complex cases by more than 60%.</dd></div></dl>
+              
+            </details>
+          </div>
+          <div class="project-metric"><strong>60%+</strong><span>Lower API cost per complex case</span></div>
+        </article>
+        <article class="project" id="order-review">
+          <p class="project-category">Workflow Automation</p>
+          <div class="project-main">
+            <p class="project-role">Legal AI Product Intern</p>
+            <h3>Order Review Cat</h3>
+            <p class="project-intro">At Lilith Games, I turned repetitive order checks into a configurable Dify workflow.</p>
+            <details>
+              <summary><span>Project details</span><span class="sr-only"> · Order Review Cat</span><span class="disclosure-mark" aria-hidden="true"></span></summary>
+              <dl class="project-detail"><div><dt>Problem</dt><dd>Legal reviewers repeatedly cross-checked different kinds of orders between the OA system and Excel, making small details easy to miss.</dd></div><div><dt>My role</dt><dd>I broke review into extraction, comparison, validation, and reporting, turning review checks and key risks into configurable rules.</dd></div><div><dt>Outcome</dt><dd>The workflow reduced repetitive manual checks and earned an innovation award in Lilith’s AI competition.</dd></div></dl>
+            </details>
+          </div>
+        </article>
+        <article class="project" id="personality">
+          <p class="project-category">Interactive Web</p>
+          <div class="project-main">
+            <p class="project-role">Personal Project</p>
+            <h3>Themed Personality Quizzes</h3>
+            <p class="project-intro">Interactive quizzes inspired by anime I love. Your result changes the theme of the whole page.</p>
+            <details>
+              <summary><span>Project details</span><span class="sr-only"> · Themed Personality Quizzes</span><span class="disclosure-mark" aria-hidden="true"></span></summary>
+              <dl class="project-detail"><div><dt>Problem</dt><dd>I wanted the character personalities to come through in the experience itself, from answering questions to seeing the result.</dd></div><div><dt>My role</dt><dd>I built two themes inspired by Shugo Chara! and Pokémon, with sounds during the quiz, dynamic styling, and an exportable result image.</dd></div></dl>
+              
+            </details>
+          </div>
+          
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience" aria-labelledby="experience-title">
+      <div class="shell experience-grid">
+        <div>
+          <p class="section-label">Experience</p>
+          <h2 id="experience-title">Where I’ve worked<span>.</span></h2>
+        </div>
+        <ol class="timeline">
+        <li>
+          <p class="timeline-date">Since Oct 2026</p>
+          <div><h3>Xiaohongshu</h3><p class="timeline-role">AI Operations Intern</p><p>I help write evaluation tasks around real office workflows, score agent traces with rubrics, and investigate failures in planning, tool use, and output.</p></div>
+        </li>
+        <li>
+          <p class="timeline-date">Apr – Oct 2026</p>
+          <div><h3>NIO</h3><p class="timeline-role">AI Product Intern</p><p>I helped build the Legal AI Platform, designing the intake agent, litigation workflows, and knowledge governance.</p></div>
+        </li>
+        <li>
+          <p class="timeline-date">Dec 2024 – Jun 2025</p>
+          <div><h3>Intel China</h3><p class="timeline-role">Legal AI Product Intern</p><p>I led product definition for the AI Legal Bot, giving employees self-service access to templates, processes, and common answers. I received an Intel Impact Reward.</p></div>
+        </li>
+        <li>
+          <p class="timeline-date">Jun – Dec 2024</p>
+          <div><h3>Lilith Games</h3><p class="timeline-role">Legal AI Product Intern</p><p>I built my first Dify workflow here: an order-review tool that colleagues could use in their day-to-day work.</p></div>
+        </li></ol>
+      </div>
+    </section>
+
+    <section class="life section" id="life" aria-labelledby="life-title">
+      <div class="shell">
+        <div class="section-head">
+          <div><p class="section-label">Beyond work</p><h2 id="life-title">Away from my desk<span>.</span></h2></div>
+          <p>I plan birthdays for friends, take drives with David Tao and G.E.M. on the stereo, and head for the sea when I travel. I enjoy a crowd as much as a slow walk on my own.</p>
+        </div>
+        <article class="concept">
+          <div class="concept-copy">
+            <p class="concept-label">Concept & prototype</p>
+            <h3>Solo, Together</h3>
+            <p>Some days on a solo trip, I’d love to share a meal or a walk. I’m exploring whether AI can help solo travelers find people whose pace and plans are a good fit.</p>
+            <details>
+              <summary><span>Explore the concept</span><span class="disclosure-mark" aria-hidden="true"></span></summary>
+              <p>The prototype offers two entry points: finding a companion for part of an itinerary, or finding someone for a meal nearby. AI turns a plain-language request into a plan and explains where budgets, tastes, and travel pace line up or differ. Both people agree on the details before joining. User validation is still ahead.</p>
+            </details>
+          </div>
+          <div class="route-art" aria-hidden="true"><span></span><i></i><b>✧</b></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-inner">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2 id="contact-title">Drop me a line<span>.</span></h2>
+          <p>If you’re building with AI or have a question you’d like to think through together, I’d love to hear from you.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="email" href="mailto:jiaxuancao@163.com">jiaxuancao@163.com</a>
+          <div class="actions">
+            <a class="button primary" href="mailto:jiaxuancao@163.com">Send an email</a>
+            <button class="button secondary copy-button" type="button" data-email="jiaxuancao@163.com" data-copied="Copied" data-error="Copy unavailable. Select the email above to copy it." hidden>Copy email</button>
+          </div>
+          <p class="copy-status" role="status"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="shell footer-inner"><span>© 2026 Wendy Cao</span><a href="#top">Back to top</a></div>
+  </footer>
+</body>
+</html>
