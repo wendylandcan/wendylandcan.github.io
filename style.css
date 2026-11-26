@@ -409,4 +409,41 @@ footer { border-top: 1px solid var(--line); }
   .project-intro { margin-bottom: 3px; }
   .project-metric { text-align: left; margin-top: 0; }
   .project-metric span { margin-top: 1px; }
-  .timeline li { grid-template-col
+  .timeline li { grid-template-columns: minmax(0, 1fr); gap: 7px; }
+  .work-facts { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .footer-inner { flex-wrap: wrap; gap: 8px 16px; }
+}
+
+.solo-idea {
+  padding-block: clamp(36px, 6vw, 72px);
+  background: var(--white);
+}
+.solo-idea h2 { font-size: clamp(2rem, 4vw, 3rem); }
+.solo-story, .solo-flow, .solo-invite { max-width: 65ch; }
+.solo-story { margin-top: 14px; }
+.solo-flow { margin-top: 8px; color: var(--muted); }
+.solo-invite { margin-top: 12px; }
+.solo-invite a { color: var(--accent); font-weight: 680; text-decoration: underline; text-underline-offset: .2em; }
+.solo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  margin: 23px 0 16px;
+}
+.solo-gallery figure { min-width: 0; margin: 0; }
+.solo-shot {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--accent-soft);
+  cursor: zoom-in;
+}
+.solo-shot:hover { border-color: var(--accent); }
+.solo-shot img { display: block; width: 100%; height: auto; }
+.solo-gallery figcaption { margin-top: 9px; font-size: .875rem; }
+.solo-gallery figcaption p { margin-top: 3px; color: var(--muted); }
+.solo-status { font-size: .8125rem; color: var(--muted); }
+@media (max-width: 740px) {
+  .solo-gallery { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+}
